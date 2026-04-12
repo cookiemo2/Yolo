@@ -1,2 +1,1 @@
-python yolo_detect.py-model=yolo11n_ncnn_model-source
-usbo --resolution=1280x720
+python yolo_detect.py --model=yolo11n_ncnn_model --source usb0 --resolution=1280x720
